@@ -1,0 +1,162 @@
+@import '../../styles/color';
+
+
+
+  .navbar{
+    //background-color: rgba(0, 0, 0, 0.34);
+    padding: 10px 5%;
+  }
+
+
+  .logo{
+    padding-bottom: 50%;
+
+  }
+
+  .logo_width{
+    padding: 10px 0;
+    width: 150px;
+    display: inline-block;
+
+    img{
+      width: 100%;
+    }
+
+  }
+
+  .navLinks{
+
+    margin-left: auto;
+    display: flex;
+
+    a{
+      margin-left: 40px;
+      font-size: 16px;
+      color: black;
+
+    }
+
+  }
+
+
+  .nav_abs{
+
+  }
+  .left_links{
+    display: flex;
+    align-items: center;
+
+    a{
+      margin-right: 40px;
+      color: white;
+      padding-bottom: 10px;
+      border-bottom: 2px solid transparent;
+      display: inline-block;
+    }
+    a:first-child{
+      margin-right: 50px;
+    }
+  }
+
+
+
+.right_links{
+
+  display: flex;
+  align-items: center;
+
+  a{
+    margin-left: 30px;
+    color: white;
+    padding-bottom: 10px;
+    border-bottom: 2px solid transparent;
+    display: inline-block;
+  }
+
+  .email_ic{
+    position: relative;
+    margin-right: 40px;
+    svg{
+      width: 30px;
+      height: auto;
+    }
+    span{
+      width: 10px;
+      height: 10px;
+      display: inline-block;
+      position: absolute;
+      background-color: #8a84f2;
+      border-radius: 50%;
+      right: -5px;
+      top: 0;
+    }
+  }
+  .account{
+    align-items: center;
+    display: flex;
+    div{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+
+    img{
+      width: 100%;
+      height: 100%;
+      position: absolute;
+    }
+  }}
+
+}
+
+
+
+.navLinks_active{
+  color: #8a84f2 !important;
+  border-bottom: 2px solid #8a84f2 !important;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+  .left_links{
+    flex-wrap: wrap;
+  }
+
+  .navLinks{
+    margin-left: 0 !important;
+    }
+
+  .logo_width{
+    width: 110px  !important;
+    text-align: center  !important;
+    margin: 0 auto !important;
+  }
+  .right_links{
+    .email_ic {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
